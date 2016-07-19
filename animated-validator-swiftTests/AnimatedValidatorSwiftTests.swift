@@ -17,6 +17,11 @@ class ValidatorViewController: QuickSpec {
     override func spec() {
         
         let tester = KIFUITestActor()
+//        @IBOutlet weak var clearAllFields: UIButton!
+//        @IBOutlet weak var clearTextField: UIButton!
+//        @IBOutlet weak var clearTextField: UIButton!
+//        @IBOutlet weak var clearTextField: UIButton!
+//        @IBOutlet weak var submitButtonCenterYConstraint: NSLayoutConstraint!
         
         let submitButton =  tester.waitForViewWithAccessibilityLabel(Constants.SUBMITBUTTON) as! UIButton
         
