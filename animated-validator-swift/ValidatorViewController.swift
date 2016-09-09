@@ -141,7 +141,7 @@ class ValidatorViewController: UIViewController, UITextFieldDelegate {
     func pulseTextField(textField: UITextField) {
         
         
-        UIView.animateWithDuration(0.25, delay: 0.0, options: [.Repeat, .Autoreverse], animations: {
+        UIView.animateWithDuration(0.33, delay: 0.0, options: [.Repeat, .Autoreverse], animations: {
             
             UIView.setAnimationRepeatCount(3.0)
             textField.transform = CGAffineTransformMakeScale(0.98, 0.98)
